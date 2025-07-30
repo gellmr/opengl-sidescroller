@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="glfwhello" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/glfwhello" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/home/gellmr/soletrader/glfw-3.3.9/build/src" />
+					<Add directory="/home/gellmr/soletrader/glfw-3.3.9/include/GLFW" />
+					<Add directory="/home/gellmr/soletrader/glad/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl -lglut -lGLU" />
+					<Add library="/home/gellmr/soletrader/glfw-3.3.9/build/src/libglfw3.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="camera.cpp" />
+		<Unit filename="camera.h" />
+		<Unit filename="controls.cpp" />
+		<Unit filename="controls.h" />
+		<Unit filename="gm.cpp" />
+		<Unit filename="gm.h" />
+		<Unit filename="hud.cpp" />
+		<Unit filename="hud.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mobject.cpp" />
+		<Unit filename="mobject.h" />
+		<Unit filename="particle.cpp" />
+		<Unit filename="particles.cpp" />
+		<Unit filename="particles.h" />
+		<Unit filename="ship.cpp" />
+		<Unit filename="ship.h" />
+		<Unit filename="utils.cpp" />
+		<Unit filename="utils.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

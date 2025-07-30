@@ -1,0 +1,242 @@
+# depslib dependency file v1.0
+1707549593 source:/home/gellmr/repos/glfwhello/main.cpp
+	<GL/gl.h>
+	<GLFW/glfw3.h>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<GL/glu.h>
+	<GL/glut.h>
+	<GL/freeglut.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<cmath>
+	"camera.h"
+	"controls.h"
+	"mobject.h"
+	"particles.h"
+	"ship.h"
+	"utils.h"
+	"gm.h"
+	"hud.h"
+
+1704479422 source:/home/gellmr/repos/glfwhello/glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<winapifamily.h>
+	<dlfcn.h>
+
+1704479422 /home/gellmr/soletrader/glad/include/glad/glad.h
+	<KHR/khrplatform.h>
+
+1704479422 /home/gellmr/soletrader/glad/include/KHR/khrplatform.h
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1706779793 /home/gellmr/repos/glfwhello/particles.h
+	<GL/gl.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"mobject.h"
+
+1706706464 source:/home/gellmr/repos/glfwhello/particle.cpp
+	<GLFW/glfw3.h>
+	"particle.h"
+	"particles.h"
+	<iostream>
+	<cstdlib>
+
+1707473437 source:/home/gellmr/repos/glfwhello/particles.cpp
+	<GLFW/glfw3.h>
+	"particle.h"
+	"particles.h"
+	"utils.h"
+	<iostream>
+	<cstdlib>
+
+1707623786 source:/home/gellmr/repos/glfwhello/mobject.cpp
+	<GL/gl.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+	<vector>
+	"mobject.h"
+	"utils.h"
+
+1707622785 /home/gellmr/repos/glfwhello/mobject.h
+	<GL/gl.h>
+	<iostream>
+	<vector>
+	<glm/glm.hpp>
+
+1707623785 source:/home/gellmr/repos/glfwhello/ship.cpp
+	"ship.h"
+	"mobject.h"
+	"utils.h"
+	"controls.h"
+	"camera.h"
+	"gm.h"
+	<GL/gl.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+
+1706782301 /home/gellmr/repos/glfwhello/ship.h
+	<GLFW/glfw3.h>
+	"mobject.h"
+	"particles.h"
+
+1707550435 /home/gellmr/repos/glfwhello/utils.h
+
+1707623783 source:/home/gellmr/repos/glfwhello/utils.cpp
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glut.h>
+	<GL/freeglut.h>
+	<stdio.h>
+	<math.h>
+	<cstdlib>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<cmath>
+	"utils.h"
+
+1706782376 source:/home/gellmr/repos/glfwhello/controls.cpp
+	<GLFW/glfw3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<iostream>
+	<cstdlib>
+	"controls.h"
+
+1706782384 /home/gellmr/repos/glfwhello/controls.h
+	<GLFW/glfw3.h>
+
+1707473437 source:/home/gellmr/repos/glfwhello/camera.cpp
+	<GL/gl.h>
+	<GLFW/glfw3.h>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<GL/glu.h>
+	<GL/glut.h>
+	<GL/freeglut.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<cmath>
+	"camera.h"
+	"controls.h"
+	"utils.h"
+	"mobject.h"
+
+1707473437 /home/gellmr/repos/glfwhello/camera.h
+	<GLFW/glfw3.h>
+	"mobject.h"
+
+1706706246 /home/gellmr/repos/glfwhello/particle.h
+	<GL/gl.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"mobject.h"
+
+1706921401 source:/home/gellmr/repos/glfwhello/gamemain.cpp
+	<GL/gl.h>
+	<GLFW/glfw3.h>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<GL/glu.h>
+	<GL/glut.h>
+	<GL/freeglut.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<cmath>
+	"camera.h"
+	"controls.h"
+	"mobject.h"
+	"particles.h"
+	"ship.h"
+	"utils.h"
+	"gamemain.h"
+
+1706921374 /home/gellmr/repos/glfwhello/gamemain.h
+	<GLFW/glfw3.h>
+	"ship.h"
+
+1707631939 source:/home/gellmr/repos/glfwhello/gm.cpp
+	<GL/gl.h>
+	<GLFW/glfw3.h>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<GL/glu.h>
+	<GL/glut.h>
+	<GL/freeglut.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<cmath>
+	"camera.h"
+	"controls.h"
+	"mobject.h"
+	"particles.h"
+	"ship.h"
+	"utils.h"
+	"gm.h"
+
+1707476050 /home/gellmr/repos/glfwhello/gm.h
+	<GLFW/glfw3.h>
+	"ship.h"
+
+1706922222 source:/home/gellmr/repos/glfwhello/hud.cpp
+	<GL/gl.h>
+	<GLFW/glfw3.h>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<GL/glu.h>
+	<GL/glut.h>
+	<GL/freeglut.h>
+	<stdlib.h>
+	<stdio.h>
+	<string>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<cmath>
+	"hud.h"
+	"gm.h"
+	"utils.h"
+	"controls.h"
+
+1706922057 /home/gellmr/repos/glfwhello/hud.h
+
